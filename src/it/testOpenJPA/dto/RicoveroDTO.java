@@ -4,7 +4,7 @@ public class RicoveroDTO {
 	
 	private String data;
 	private String tipo;
-	private String nome;//nome del Paziente
+	private String nomePaziente;//nome del Paziente
 	
 	public RicoveroDTO() {
 
@@ -26,12 +26,12 @@ public class RicoveroDTO {
 		this.tipo = tipo;
 	}
 
-	public String getNome() {
-		return nome;
+	public String getNomePaziente() {
+		return nomePaziente;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setNomePaziente(String nomePaziente) {
+		this.nomePaziente = nomePaziente;
 	}
 
 }
